@@ -55,3 +55,150 @@ li a.active{
   border-bottom-style: solid;
   color: white;
 }
+
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/********************************************** start of recipe styles ****************************************************/
+
+#recipe {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+#recipe h2 {
+  color: #333;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 2em;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+#recipe h3 {
+  background-color: white;
+  margin-top: 24px;
+}
+.recipe-picture {
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+}
+.recipe-info .row {
+  margin-top: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 0px 0 rgba(0,0,0,.15);
+  box-shadow: 0 0px 0 rgba(0,0,0,.15);
+}
+
+.recipe-ingredients {
+  background-color: white;
+  margin-top: 24px;
+}
+.ingredients-list dl {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.ingredients-list dt {
+  width: 15%;
+  float: left;
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: 13px;
+  line-height: 37px;
+  background: white;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.ingredients-list dd {
+  width: 85%;
+  float: left;
+  margin: 0 0 8px;
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 37px;
+  font-weight: 600;
+  background: #62a5a1;
+  color: white;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.recipe-directions ol {
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.recipe-directions ol ol {
+    margin: 0 0 0 2em;
+}
+.recipe-directions li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.recipe-directions li:hover{
+    background: white;
+}
+.recipe-directions li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #62a5a1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.recipe-directions li:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+.recipe-directions li:hover:after{
+    left: -.5em;
+    border-left-color: #62a5a1;
+}
