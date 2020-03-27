@@ -5,9 +5,8 @@ header {
     height:100%;
     margin:0 auto;
     padding:1rem 5rem;
-    background:#62a5a1;
+    background:#f57e42;
     color:#fff;
-
 }
 header h1 {
     line-height: 50px;
@@ -15,7 +14,10 @@ header h1 {
     margin: 0;
     float: left;
     display: inline-block;
-
+}
+footer{
+  background: #f57e42;
+  color: white;
 }
 nav {
     padding-left: 0;
@@ -109,11 +111,6 @@ div.desc {
   -moz-box-shadow: 0 0px 0 rgba(0,0,0,.15);
   box-shadow: 0 0px 0 rgba(0,0,0,.15);
 }
-
-.recipe-ingredients {
-  background-color: white;
-  margin-top: 24px;
-}
 .ingredients-list dl {
   display: inline-block;
   width: 100%;
@@ -126,26 +123,32 @@ div.desc {
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
-  font-size: 13px;
+  /* font-size: 13px;
   line-height: 37px;
   background: white;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15); */
 }
 .ingredients-list dd {
   width: 85%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
-  font-size: 13px;
+  /* font-size: 13px;
   line-height: 37px;
   font-weight: 600;
-  background: #62a5a1;
+  background: #f57e42;
   color: white;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15); */
+}
+.ingredients{
+  color: black;
+}
+.ingredients-list{
+
 }
 .recipe-directions ol {
     counter-reset: li;
@@ -181,7 +184,7 @@ div.desc {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #62a5a1;
+    background: #f57e42;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -200,5 +203,5 @@ div.desc {
 }
 .recipe-directions li:hover:after{
     left: -.5em;
-    border-left-color: #62a5a1;
+    border-left-color: #f57e42;
 }
