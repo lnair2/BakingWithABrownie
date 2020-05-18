@@ -18,6 +18,11 @@ header h1 {
 footer{
   background: #f57e42;
   color: white;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  line-height: 30px;
 }
 nav {
     padding-left: 0;
