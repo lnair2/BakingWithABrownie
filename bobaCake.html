@@ -16,6 +16,12 @@
       $("header").load("header.html");
       $("footer").load("footer.html");
       $("#cakes").addClass("active");
+      var path = window.location.href;
+      $("ul a").each(function() {
+       if (this.href === path) {
+        $(this).addClass("active");
+       }
+      });
     });
   </script>
 </head>
