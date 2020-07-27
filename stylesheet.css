@@ -5,7 +5,7 @@ header {
     height:100%;
     margin:0 auto;
     padding:1rem 5rem;
-    background:#f57e42;
+    background:#b5244d;
     color:#fff;
 }
 header h1 {
@@ -16,7 +16,7 @@ header h1 {
     display: inline-block;
 }
 footer{
-  background: #f57e42;
+  background: #b5244d;
   color: white;
   position:fixed;
   left:0px;
@@ -189,7 +189,7 @@ div.desc {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #f57e42;
+    background: #b5244d;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -208,5 +208,5 @@ div.desc {
 }
 .recipe-directions li:hover:after{
     left: -.5em;
-    border-left-color: #f57e42;
+    border-left-color: #b5244d;
 }
