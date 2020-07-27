@@ -18,7 +18,7 @@
       $("#cakes").addClass("active");
       var path = window.location.href;
       $("ul a").each(function() {
-       if (this.href === path) {
+       if (this.location.href === path) {
         $(this).addClass("active");
        }
       });
