@@ -10,11 +10,19 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="shortcut icon" href="images/favicon.png">
     <title>Baking with a Brownie</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script>
+      $(function(){
+        $("header").load("header.html");
+        $("footer").load("footer.html");
+      });
+    </script>
   </head>
 
   <body>
     <header>
-      <h1><a href="main.html">Baking with a Brownie</a></h1>
+      <!-- <h1><a href="main.html">Baking with a Brownie</a></h1>
         <nav>
           <ul class="navList">
             <li><a href="cakes.html">Cakes</a></li>
@@ -25,7 +33,7 @@
             <li><a href="otherTastyTreats.html">Other Treats</a></li>
           </ul>
         </nav>
-      <div style="clear: both"></div>
+      <div style="clear: both"></div> -->
     </header>
     <div class="container" style="text-align:center; padding: 40px;">
       <img style="border-radius: 50%;" src="images/bakingwithabrownie.jpg" alt="baking with a brownie" height="300" width="300">
@@ -35,9 +43,9 @@
     </div>
 
     <footer>
-      <div class="display: inline-block;">
+      <!-- <div class="display: inline-block;">
         <p style="text-align: center; padding: 20px; margin: 0px;">Made with <span><i class="fas fa-heart"></i></span> by Maryam and Lavi</p>
-      </div>
+      </div> -->
     </footer>
   </body>
 </html>
