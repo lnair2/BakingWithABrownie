@@ -14,31 +14,19 @@
   <script>
     $(function(){
       $("header").load("header.html");
-      $("footer").load("footer.html");
-      $("#cakes").addClass("active");
+      $("footer").load("footer.html", function(){
+        $("#cakes").addClass("active");
+      });
     });
   </script>
 </head>
 <body>
   <header>
-    <!-- <h1><a href="../main.html">Baking with a Brownie</a></h1>
-      <nav>
-        <ul>
-          <li><a class="navLink active" href="../cakes.html">Cakes</a></li>
-          <li><a class="navLink" href="../cookies.html">Cookies</a></li>
-          <li><a class="navLink" href="../breads.html">Breads</a></li>
-          <li><a class="navLink" href="../pies.html">Pies</a></li>
-          <li><a class="navLink" href="../smoothies.html">Smoothies</a></li>
-          <li><a class="navLink" href="../otherTastyTreats.html">Other Treats</a></li>
-        </ul>
-      </nav>
-    <div style="clear: both"></div> -->
   </header>
   <section id="recipe">
   <div class="container">
     <!-- info and pic section -->
     <div class="row">
-      <!-- <div class="col-12"> -->
         <!-- Picture -->
         <div class="col-md-6">
           <img src="images/bostonCreamPie.JPG" alt="Boston Cream Pie" class="recipe-picture" width="400"/>
@@ -53,7 +41,6 @@
               </div>
               <div class="col-9">I made this cake for Parent's Anniversaty. This one was a little conplicated because the filling had to be the right consistency in order to create the layer in between the two cakes.</div>
             </div>
-            <!--fas fa-pepper-hot-->
             <!-- Time -->
             <div class="row">
               <div class="col-2 text-center">
@@ -80,7 +67,6 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
     </div>
     <!-- Ingredients -->
     <div class="row wow slideInUp">
@@ -164,7 +150,6 @@
   </div>
   </section>
   <footer class="footer">
-      <!-- <p style="text-align: center; padding: 20px; margin: 0px;">Made with <span><i class="fas fa-heart"></i></span> by Maryam and Lavi</p> -->
   </footer>
   </body>
 </html>

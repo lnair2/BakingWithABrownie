@@ -14,31 +14,19 @@
   <script>
     $(function(){
       $("header").load("header.html");
-      $("footer").load("footer.html");
-      $("#cakes").attr('class').addClass('active');
+      $("footer").load("footer.html", function(){
+        $("#cakes").addClass("active");
+      });
     });
   </script>
 </head>
 <body>
   <header>
-    <!-- <h1><a href="../main.html">Baking with a Brownie</a></h1>
-      <nav>
-        <ul>
-          <li><a class="navLink active" href="../cakes.html">Cakes</a></li>
-          <li><a class="navLink" href="../cookies.html">Cookies</a></li>
-          <li><a class="navLink" href="../breads.html">Breads</a></li>
-          <li><a class="navLink" href="../pies.html">Pies</a></li>
-          <li><a class="navLink" href="../smoothies.html">Smoothies</a></li>
-          <li><a class="navLink" href="../otherTastyTreats.html">Other Treats</a></li>
-        </ul>
-      </nav>
-    <div style="clear: both"></div> -->
   </header>
   <section id="recipe">
   <div class="container">
     <!-- info and pic section -->
     <div class="row">
-      <!-- <div class="col-12"> -->
         <!-- Picture -->
         <div class="col-md-6">
           <img src="images/bobaCake.JPG" alt="boba cake" class="recipe-picture" height="40" width="400"/>
@@ -83,7 +71,6 @@
             </div> -->
           </div>
         </div>
-      <!-- </div> -->
     </div>
     <!-- Ingredients -->
     <div class="row wow slideInUp">
@@ -212,7 +199,6 @@
   </div>
   </section>
   <footer class="footer">
-      <!-- <p style="text-align: center; padding: 20px; margin: 0px;">Made with <span><i class="fas fa-heart"></i></span> by Maryam and Lavi</p> -->
   </footer>
   </body>
 </html>
