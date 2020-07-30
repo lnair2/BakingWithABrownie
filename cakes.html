@@ -17,8 +17,8 @@
           $.getScript("header.html"),
           $.getScript("footer.html"),
         ).done((header, footer) => {
-          $("header").append(header[0]);
-          $("footer").append(footer[0]);
+          $("header").load(header[0]);
+          $("footer").load(footer[0]);
           $("#cakes").addClass("active");
         });
       });
