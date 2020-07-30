@@ -14,11 +14,13 @@
     <script>
       $(function(){
         $.when(
-          $.getScript("header.html"),
-          $.getScript("footer.html"),
+          // $.getScript("header.html"),
+          // $.getScript("footer.html"),
+          $("header").load("header.html"),
+          $("footer").load("footer.html"),
         ).done((header, footer) => {
-          $("header").load(header[0]);
-          $("footer").load(footer[0]);
+          // $("header").html(header[0]);
+          // $("footer").html(footer[0]);
           $("#cakes").addClass("active");
         });
       });
