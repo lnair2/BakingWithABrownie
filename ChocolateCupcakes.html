@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Baking with a Brownie - Cakes</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("header.html");
+      $("footer").load("footer.html", function(){
+        $("#cakes").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="images/chocolateCupcakes1-square.png" alt="chocolateCupcakes" class="recipe-picture" width="400"/>
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">These chocolate cupcakes are sooo rich and delicious, we can't belive that they're also dairy free and gluten free!!</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Total Time</div>
+              <div class="col-5">1 hour</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Servings</div>
+              <div class="col-5">9-12</div>
+            </div>
+            <!-- Calories -->
+            <!-- <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-weight" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Calories per serving</div>
+              <div class="col-5">478</div>
+            </div> -->
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients</h3>
+          <dl class="ingredients-list">
+            <dt>3/4 cup</dt> <dd>Gluten Free All-purpose Flour</dd>
+            <dt>1/2 cup and 1 tbsp</dt> <dd>Unsweetened Cocoa Powder</dd>
+            <dt>3/4 tsp</dt> <dd>Baking Powder</dd>
+            <dt>1/4 tsp</dt> <dd>Salt</dd>
+            <dt>3/4 cup</dt> <dd>Granulated Sugar</dd>
+            <dt>4 tbsp</dt> <dd>Cocount Oil (melted)</dd>
+            <dt>2</dt> <dd>Eggs (room temperature)</dd>
+            <dt>1 tsp</dt> <dd>Vanilla Extract</dd>
+            <dt>1/4 cup</dt> <dd>Almond Milk (warm temperature)</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>Pre-heat oven to 350°, and lightly grease or line cupcake tin.</li>
+            <li>In a large bowl, combine all of the dry ingredients.</li>
+            <li>Create a well in the center, and add oil, eggs, vanilla, and milk. Whisk batter until smooth.</li>
+            <li>Fill the cupcake tins 2/3 of the way with batter, and then bake for 19 minutes. You can tell they are done if they spring back when lightly pressed.</li>
+            <li>Cool for 20 minutes and enjoy! You can top with your favorite frosting!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- Back to recipes -->
+    <div class="row wow rollIn">
+      <div class="col-12 text-center">
+        <a href="index.html">
+          <i class="fa fa-backward" aria-hidden="true"></i>
+          Go to back to recipes.
+        </a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
