@@ -27,6 +27,7 @@ footer{
 
 .footerMargin{
   margin-bottom: 100px;
+  overflow: hidden;
 }
 
 nav {
