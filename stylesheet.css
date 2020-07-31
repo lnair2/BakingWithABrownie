@@ -18,12 +18,17 @@ header h1 {
 footer{
   background: #b5244d;
   color: white;
-  /* position:fixed; */
+  position:fixed;
   left:0px;
   bottom:0px;
   width:100%;
   line-height: 30px;
 }
+
+.footerMargin{
+  margin-bottom: 100px;
+}
+
 nav {
     padding-left: 0;
     margin-bottom: 0;
