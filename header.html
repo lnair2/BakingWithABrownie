@@ -1,12 +1,12 @@
 <script>
-  function myFunction() {
-    var x = $("#myTopNav");
-    if(x.hasClass("topnav")){
-      x.addClass("responsive");
+  $(function(){
+    var x = document.getElementById("myTopNav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
     } else {
-      x.addClass("topnav");
+      x.className = "topnav";
     }
-  };
+  });
 </script>
 <h1><a href="main.html">Baking with a Brownie</a></h1>
   <nav class="topnav" id="myTopNav">
