@@ -20,6 +20,15 @@
         $('#cakes').click(function() {
           $($(this).attr('href')).addClass('active').siblings().removeClass('active')
         })
+        myFunction();
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
       });
     </script>
   </head>
