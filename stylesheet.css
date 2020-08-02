@@ -37,6 +37,10 @@ nav {
     float:right;
 }
 
+nav ul{
+  flex-flow: wrap;
+}
+
 li {
   position:relative;
   display:inline-block;
