@@ -236,7 +236,7 @@ div.desc {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav li:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
