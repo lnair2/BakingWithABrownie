@@ -236,7 +236,7 @@ div.desc {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav li:not(:first-child), .dropdown .dropbtn {
+  .topnav li {
     display: none;
   }
   .topnav a.icon {
@@ -246,7 +246,7 @@ div.desc {
 }
 
 .topnav a:hover {
-  background-color: #555;
+  /* background-color: #555; */
   color: white;
 }
 
