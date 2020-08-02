@@ -145,7 +145,7 @@ div.desc {
   overflow: auto;
 }
 .ingredients-list dt {
-  width: 25%;
+  width: 15%;
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
@@ -153,7 +153,7 @@ div.desc {
   white-space: nowrap;
 }
 .ingredients-list dd {
-  width: 75%;
+  width: 85%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
@@ -233,15 +233,31 @@ div.desc {
     display: block;
     text-align: left;
   }
-}
+/* }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { */
   .topnav li {
     display: none;
   }
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  .ingredients-list dt {
+    width: 30%;
+    float: left;
+    margin: 0 0 8px;
+    padding: 0 10px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .ingredients-list dd {
+    width: 70%;
+    float: left;
+    margin: 0 0 8px;
+    padding: 0 15px;
+    display: inline-block;
+    white-space: nowrap;
   }
 }
 
