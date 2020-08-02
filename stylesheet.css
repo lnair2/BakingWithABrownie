@@ -236,7 +236,7 @@ div.desc {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav li {
+  .topnav a {
     display: none;
   }
   .topnav a.icon {
