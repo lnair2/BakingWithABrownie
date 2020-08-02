@@ -21,15 +21,15 @@
           $($(this).attr('href')).addClass('active').siblings().removeClass('active')
         })
         myFunction();
-        function myFunction() {
-          var x = $("#myTopNav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
       });
+      function myFunction() {
+        var x = $("#myTopNav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
     </script>
   </head>
 
