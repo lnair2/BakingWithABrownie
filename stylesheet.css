@@ -231,9 +231,9 @@ div.desc {
   }
 }
 
-.bg-light {
-  background-color: #b5244d !important; /*changes the color of the responsive nav */
-}
+/* .bg-light {
+  background-color: #b5244d !important;
+} */
 
 .topnav a:hover {
   background-color: #555;
