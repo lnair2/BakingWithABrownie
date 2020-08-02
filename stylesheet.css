@@ -101,7 +101,7 @@ div.desc {
   color: white;
 }
 
-div.desc:hover:after {
+div.desc a:hover:after {
   text-decoration: none;
 }
 
