@@ -101,7 +101,7 @@ div.desc {
   color: white;
 }
 
-.gallery a:hover:after {
+div.gallery a:hover {
   text-decoration: none;
 }
 
