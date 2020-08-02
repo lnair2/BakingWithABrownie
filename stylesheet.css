@@ -27,7 +27,12 @@ footer{
 
 .footerMargin{
   margin-bottom: 100px;
+  margin-top: 50px; /*to avoid sticky top nav blocking content*/
   overflow: hidden;
+}
+
+.container{
+  margin-top: 50px;
 }
 
 nav {
