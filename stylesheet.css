@@ -1,19 +1,19 @@
 header {
-    position:relative;
-    display:block;
-    max-width:100%;
-    height:100%;
-    margin:0 auto;
-    padding:1rem 5rem;
-    background:#b5244d;
-    color:#fff;
+  position:relative;
+  display:block;
+  max-width:100%;
+  height:100%;
+  margin:0 auto;
+  padding:1rem 5rem;
+  background:#b5244d;
+  color:#fff;
 }
 header h1 {
-    line-height: 50px;
-    font-size: 2rem;
-    margin: 0;
-    float: left;
-    display: inline-block;
+  line-height: 50px;
+  font-size: 2rem;
+  margin: 0;
+  float: left;
+  display: inline-block;
 }
 footer{
   background: #b5244d;
@@ -36,10 +36,10 @@ footer{
 }
 
 nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    float:right;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float:right;
 }
 
 nav ul{
@@ -101,6 +101,9 @@ div.desc {
   color: white;
 }
 
+#sides{
+  font-variant-caps: all-small-caps;
+}
 /********************************************** start of recipe styles ****************************************************/
 
 #recipe {
@@ -155,63 +158,60 @@ div.desc {
 .ingredients{
   color: black;
 }
-.ingredients-list{
-
-}
 .recipe-directions ol {
-    counter-reset: li;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 4em;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  counter-reset: li;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 .recipe-directions ol ol {
-    margin: 0 0 0 2em;
+  margin: 0 0 0 2em;
 }
 .recipe-directions li {
-    position: relative;
-    display: block;
-    padding: .4em .4em .4em .8em;
-    *padding: .4em;
-    margin: .5em 0 .5em 2.5em;
-    background: white;
-    color: black;
-    text-decoration: none;
-    transition: all .3s ease-out;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  *padding: .4em;
+  margin: .5em 0 .5em 2.5em;
+  background: white;
+  color: black;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-directions li:hover{
-    background: white;
+  background: white;
 }
 .recipe-directions li:before{
-    content: counter(li);
-    counter-increment: li;
-    position: absolute;
-    left: -2.5em;
-    top: 50%;
-    margin-top: -1em;
-    background: #b5244d;
-    height: 2em;
-    width: 2em;
-    line-height: 2em;
-    text-align: center;
-    font-weight: bold;
-    color: white;
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #b5244d;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 .recipe-directions li:after{
-    position: absolute;
-    content: '';
-    border: .5em solid transparent;
-    left: -1em;
-    top: 50%;
-    margin-top: -.5em;
-    transition: all .3s ease-out;
+  position: absolute;
+  content: '';
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  transition: all .3s ease-out;
 }
 .recipe-directions li:hover:after{
-    left: -.5em;
-    border-left-color: #b5244d;
+  left: -.5em;
+  border-left-color: #b5244d;
 }
 
 /********************* response nav **********************/
