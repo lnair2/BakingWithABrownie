@@ -46,7 +46,7 @@ nav ul{
   flex-flow: wrap;
 }
 
-li {
+ul li {
   position:relative;
   display:inline-block;
   list-style-type: none;
@@ -57,7 +57,7 @@ li {
   color: white !important;
 }
 
-a{
+ul a{
   color: white;
 }
 
