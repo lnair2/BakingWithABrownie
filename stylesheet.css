@@ -207,7 +207,7 @@ div.desc {
 
 /********************* response nav **********************/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -221,13 +221,19 @@ div.desc {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .topnav li {
     display: none;
   }
   .topnav a.icon {
     float: right;
     display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #sides {
+    display: inline-grid;
   }
 }
 
