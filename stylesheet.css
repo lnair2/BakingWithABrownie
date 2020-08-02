@@ -150,7 +150,7 @@ div.desc {
   margin: 0 0 8px;
   padding: 0 10px;
   display: inline-block;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 .ingredients-list dd {
   width: 75%;
@@ -158,7 +158,7 @@ div.desc {
   margin: 0 0 8px;
   padding: 0 15px;
   display: inline-block;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 .ingredients{
   color: black;
