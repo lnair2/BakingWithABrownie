@@ -121,6 +121,7 @@ div.desc {
 #recipe h3 {
   background-color: white;
   margin-top: 24px;
+  display: inline-block;
 }
 .recipe-picture {
   max-width: 100%;
