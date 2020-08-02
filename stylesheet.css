@@ -207,7 +207,7 @@ div.desc {
 
 /********************* response nav **********************/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -221,7 +221,7 @@ div.desc {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .topnav li {
     display: none;
   }
