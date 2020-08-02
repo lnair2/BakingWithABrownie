@@ -145,7 +145,7 @@ div.desc {
   overflow: auto;
 }
 .ingredients-list dt {
-  width: 15%;
+  width: 25%;
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
@@ -153,7 +153,7 @@ div.desc {
   white-space: nowrap;
 }
 .ingredients-list dd {
-  width: 85%;
+  width: 75%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
