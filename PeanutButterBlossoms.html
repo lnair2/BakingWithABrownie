@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Baking with a Brownie - Cookies</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("header.html");
+      $("footer").load("footer.html", function(){
+        $("#cookies").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="images/peanutButterBlossoms-square.png" alt="peanutButterBlossoms" class="recipe-picture" />
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">Chocolate and oranges are such a perfect combination, making these cookies the perfect treat. Feel free to adjust the orange extract to modify the orange flavor to your liking.</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Total Time</div>
+              <div class="col-4">1 hour</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Servings</div>
+              <div class="col-4">48 cookies</div>
+            </div>
+            <!-- Calories-->
+            <!-- <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-weight" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Calories per serving</div>
+              <div class="col-4">478</div>
+            </div> -->
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients</h3>
+          <dl class="ingredients-list">
+            <dt>1/2 cup</dt> <dd>Butter (unsalted/room temperature)</dd>
+            <dt>1 1/4 cups</dt> <dd>All-purpose flour</dd>
+            <dt>1/2 tsp</dt> <dd>Baking Soda</dd>
+            <dt>A Pinch</dt> <dd>Salt</dd>
+            <dt>1/2 cup</dt> <dd>Granulated Sugar</dd>
+            <dt>1/2 cup</dt> <dd>Light Brown Sugar</dd>
+            <dt>1</dt> <dd>Large Eggs</dd>
+            <dt>1 tsp</dt> <dd>Vanilla Extract</dd>
+            <dt>1 cup</dt> <dd>Peanut Butter</dd>
+            <dt>1 bag</dt> <dd>Hershey's Chocolate Kisses</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>Pre-heat oven to 375° and line baking sheet with parchment paper. Then whisk together the flour, salt, and baking soda.</li>
+            <li>In a separate bowl beat the sugars with the butter until it turns into a creamy consistency. Then add the egg and vanilla and peanut butter, mixing continuously while adding.</li>
+            <li>Once that mixture is well combined, slowly mix in the flour mixture. Continue mixing until the combined dough forms.</li>
+            <li>Form 1 inch wide balls of dough, and set them a few inches apart.</li>
+            <li>Bake for 10-12 minutes. If you substitute dark brown sugar, start checking on the cookies at the 9 minute mark. Depending on the color it might need to be taken out then.</li>
+            <li>While they bake unwrap the kisses, because it's best to put the chocolate on top of the cookies as soon as they're out of the oven, because then the bottom of the chocolate melts into it.</li>
+            <li>I think these taste best warm, so I usually let them cool for about 5-10 minutes before eating them.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- Back to recipes -->
+    <div class="row wow rollIn">
+      <div class="col-12 text-center">
+        <a href="index.html">
+          <i class="fa fa-backward" aria-hidden="true"></i>
+          Go to back to recipes.
+        </a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
