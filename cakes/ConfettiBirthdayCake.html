@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <title>Baking with a Brownie - Cakes</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
+        $("#cakes").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="../images/cakes/sprinkleBdayCake.jpg" alt="sprinkle Bday Cake" class="recipe-picture" width="400"/>
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">This is such a fun and festive cake. No matter how old I get, I'll never turn down a rainbow confetti cake for my birthday.</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Total Time</div>
+              <div class="col-5">4 hours</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Servings</div>
+              <div class="col-5">20</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients for the Cake</h3>
+          <dl class="ingredients-list">
+            <dt>1 1/2 cups</dt> <dd>Buttermilk</dd>
+            <dt>4 cups</dt> <dd>All-purpose flour</dd>
+            <dt>2 tsp</dt> <dd>Baking Powder</dd>
+            <dt>1 tsp</dt> <dd>Baking Soda</dd>
+            <dt>A Pinch</dt> <dd>Salt</dd>
+            <dt>2 1/2 cups</dt> <dd>Granulated Sugar</dd>
+            <dt>1 cup</dt> <dd>Unsalted Butter (softened)</dd>
+            <dt>4</dt> <dd>Eggs</dd>
+            <dt>4</dt> <dd>Eggs Yolks</dd>
+            <dt>1/2 cup</dt> <dd>Vegetable Oil</dd>
+            <dt>2 tsp</dt> <dd>Vanilla Extract</dd>
+            <dt>1 1/2 cup</dt> <dd>Rainbow Sugar Sprinkles</dd>
+          </dl>
+        </div>
+        <div class="recipe-ingredients">
+          <h3>Ingredients for the Frosting</h3>
+          <dl class="ingredients-list">
+            <dt>16 oz</dt> <dd>Cream Cheese</dd>
+            <dt>1/2 cup</dt> <dd>Unsalted Butter (softened)</dd>
+            <dt>2 tsp</dt> <dd>Vanilla</dd>
+            <dt>4 1/2 cups</dt> <dd>Powdered Sugar</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions for the Cake</h3>
+          <ol>
+            <li>Preheat oven to 350 degrees, and grease three cake pans. Then combine the buttermilk and vegetable oil, and set aside.</li>
+            <li>Sift and whisk the flour, baking powder, and baking soda in a separate bowl, mix in the salt.</li>
+            <li>In another bowl, beat the sugar and butter until creamy. Then incrementally add in the eggs, yolks, and vanilla while beating.</li>
+            <li>On low speed, alternate adding in the flour mixture and oil mixture. Beat until well-incorporated.</li>
+            <li>Fold in 3/4 cups of the sprinkles, and then evenly distribute the batter in the pans and bake for 30 minutes.</li>
+            <li>When done, invert each cake and make sure to cool completely before icing. I waited about 2 hours.</li>
+          </ol>
+          <h3>Directions for the Frosting</h3>
+          <ol>
+            <li>For the frosting, beat the cream cheese and butter until creamy. Then slowly add the powdered sugar and vanilla, mixing continuously on high speed for about 2 minutes.</li>
+            <li>When the cakes are finished cooling, place the first cake on the serving plate, and then put an even layer of frosting. Repeat this for the second and third cakes. Spread the remaining frosting on the sides of the cake, and optionally decorate with the remainder of the sprinkles.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
