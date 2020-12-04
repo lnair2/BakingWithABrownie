@@ -8,15 +8,15 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="../stylesheet.css">
   <title>Baking with a Brownie - Cakes</title>
-  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="../images/favicon.png">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
   <script>
     $(function(){
-      $("header").load("header.html");
-      $("footer").load("footer.html", function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
         $("#cakes").addClass("active");
       });
     });
@@ -31,7 +31,7 @@
     <div class="row">
         <!-- Picture -->
         <div class="col-md-6">
-          <img src="images/strawberryLimeCheesecakeSwirl2-square.png" alt="strawberryLimeCheesecakeSwirl" class="recipe-picture" width="400"/>
+          <img src="../images/coconutCake.JPG" alt="coconut cake" class="recipe-picture" width="400"/>
         </div>
         <!-- Info -->
         <div class="col-md-6">
@@ -41,7 +41,7 @@
               <div class="col-2 text-center">
                 <i class="fas fa-info-circle"></i>
               </div>
-              <div class="col-9">This cheesecake tastes amazing and looks so impressive you won't belive how easy it is to make!</div>
+              <div class="col-9">Lavi made this cake for Mother's Day! The cake was really moist and the icing was super fluffy, we almost finished the entire cake in one sitting.</div>
             </div>
             <!-- Time -->
             <div class="row">
@@ -49,7 +49,7 @@
                 <i class="fa fa-clock" aria-hidden="true"></i>
               </div>
               <div class="col-5">Total Time</div>
-              <div class="col-5">10 hours (including cooling time)</div>
+              <div class="col-5">1 hour and 40 minutes</div>
             </div>
             <!-- Serving -->
             <div class="row">
@@ -57,16 +57,16 @@
                 <i class="fa fa-users" aria-hidden="true"></i>
               </div>
               <div class="col-5">Servings</div>
-              <div class="col-5">10</div>
+              <div class="col-5">16</div>
             </div>
-            <!-- Calories-->
-            <!-- <div class="row">
+            <!-- Calories -->
+            <div class="row">
               <div class="col-2 text-center">
                 <i class="fas fa-weight" aria-hidden="true"></i>
               </div>
-              <div class="col-6">Calories per serving</div>
-              <div class="col-4">478</div>
-            </div> -->
+              <div class="col-5">Calories per serving</div>
+              <div class="col-5">478</div>
+            </div>
           </div>
         </div>
     </div>
@@ -74,20 +74,25 @@
     <div class="row wow slideInUp">
       <div class="col-12">
         <div class="recipe-ingredients">
-          <h3>Ingredients for the Crust</h3>
+          <h3>Ingredients for the Cake</h3>
           <dl class="ingredients-list">
-            <dt>2 1/2 cup</dt> <dd>Crushed Graham Crackers</dd>
-            <dt>1/2 cup</dt> <dd>Sugar</dd>
-            <dt>2/3 cup</dt> <dd>Butter (unsalted, melted)</dd>
+            <dt>1/2 cup</dt> <dd>Butter (salted/room temperature)</dd>
+            <dt>2 cups</dt> <dd>All-purpose flour</dd>
+            <dt>1 tbsp</dt> <dd>Baking Powder</dd>
+            <dt>1/4 tsp</dt> <dd>Salt</dd>
+            <dt>1 1/2 cups</dt> <dd>Granulated Sugar</dd>
+            <dt>3</dt> <dd>Large Eggs</dd>
+            <dt>1 cup</dt> <dd>Milk (room temperature)</dd>
+            <dt>2 tsp</dt> <dd>Vanilla</dd>
           </dl>
-          <h3>Ingredients for the Filling</h3>
+        </div>
+        <div class="recipe-ingredients">
+          <h3>Ingredients for the Icing</h3>
           <dl class="ingredients-list">
-            <dt>20 oz</dt> <dd>Frozen Sweetened Strawberries</dd>
-            <dt>1 tbsp</dt> <dd>Light Corn Syrup</dd>
-            <dt>24 oz</dt> <dd>Cream Cheese</dd>
-            <dt>14 oz</dt> <dd>Sweetened Condensed Milk</dd>
-            <dt>1/4 cup</dt> <dd>Lime Juice (doesn't have to be freshly squeezed)</dd>
-            <dt>3</dt> <dd>Eggs</dd>
+            <dt>1/2 cup</dt> <dd>Butter (room temperature)</dd>
+            <dt>3 cups</dt> <dd>Powdered Sugar</dd>
+            <dt>2 tsp</dt> <dd>Vanilla</dd>
+            <dt>3 cups</dt> <dd>Sweetened Shredded Coconut</dd>
           </dl>
         </div>
       </div>
@@ -96,18 +101,21 @@
     <div class="row wow slideInUp">
       <div class="col-12">
         <div class="recipe-directions">
-          <h3>Directions</h3>
+          <h3>Directions for Cake</h3>
           <ol>
-            <li>Pre-heat oven to 300°, then put all of the crust ingredients in a food processor until finely crushed.</li>
-            <li>Press crust firmly onto the bottom of a 9-inch springform pan, then refrigerate for 30 minutes.</li>
-            <li>Pour into a saucepan and bring to a boil. Cook for 2 minutes before covering and putting it in the fridge.</li>
-            <li>In a large bowl, beat the cream cheese until soft and creamy. Slowly add in the milk and mix until combined.</li>
-            <li>Add in the lime juice, and each egg gradually. Mix until smooth.</li>
-            <li>First pour 1/2 of the mixture into the springform pan. Then drop teaspoons of the strawberry mixture in a circular pattern on top of the filling.</li>
-            <li>Then spoon over the remaining cream cheese mixture to cover all of the strawberry.</li>
-            <li>Do another layer of strawberry preserve and use a knife to cut through the drops to make the swirl pattern.</li>
-            <li>Bake at 300° for 50 minutes until the center is set. Cool for 20 minutes and gently run a knife around the edge to loosen.</li>
-            <li>Cool in the fridge overnight before serving. Enjoy!</li>
+            <li>Pre-heat oven to 350°, and lightly grease with butter and flour two cake pans</li>
+            <li>In a medium bowl at medium speed beat together butter and sugar for 2 minutes until combined then add eggs and beat, combine well.</li>
+            <li>In another bowl whisk together flour, baking powder and salt. Then gradually add flour mixture, beating on low until combined.</li>
+            <li>Add milk and vanilla and continue beating until combined.</li>
+            <li>Divide batter into prepared pans. Bake until golden (use toothpick to test for doneness), approximately 30-35 minutes.</li>
+            <li>Remove and let cool completely on wire racks.</li>
+          </ol>
+          <h3>Directions for Icing</h3>
+          <ol>
+            <li>In a medium bowl beat together butter and powdered sugar and vanilla on medium-high speed until creamy approximately 2 minutes.</li>
+            <li>Slowly fold in coconut flakes.</li>
+            <li>To frost the cake, place the first layer on a large plate top side down, spread with 1/2 of the frosting, place the second cake top side down and frost with remaining icing.</li>
+            <li>We are crazy coconut fans and covered the top entirely with coconut flakes, but that of course is optional. Enjoy!</li>
           </ol>
         </div>
       </div>
