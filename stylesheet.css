@@ -83,6 +83,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  align-items: center; 
 }
 
 div.gallery:hover {
