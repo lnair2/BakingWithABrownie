@@ -269,6 +269,9 @@ div.gallery a:hover {
   #sides {
     display: inline-grid;
   }
+  img {
+    width: 100% !important;
+}
 }
 
 .bg-light {
