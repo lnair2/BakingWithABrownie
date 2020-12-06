@@ -83,7 +83,6 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  align-items: center; 
 }
 
 div.gallery:hover {
@@ -270,9 +269,9 @@ div.gallery a:hover {
   #sides {
     display: inline-grid;
   }
-  img {
-    width: 100% !important;
-}
+  div.gallery {
+    width: auto !important;
+  }
 }
 
 .bg-light {
