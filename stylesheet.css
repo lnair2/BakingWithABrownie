@@ -263,6 +263,9 @@ div.gallery a:hover {
     display: inline-block;
     white-space: nowrap;
   }
+  div.gallery {
+    width: auto !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
