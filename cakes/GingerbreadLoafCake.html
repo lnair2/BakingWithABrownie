@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <title>Baking with a Brownie - Cakes</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
+        $("#cakes").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="../images/cakes/gingerbreadLoafCake-square.png" alt="gingerbread loaf cake" class="recipe-picture" width="400"/>
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">This is such a fun holiday recipe, and we love it even more that it's Dairy Free! Also the gingerbread flavor isn’t too overpowering like it can be in a cookie! </div>
+            </div>
+            <!-- Made by -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="col-9">Made by Maryam</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Total Time</div>
+              <div class="col-5">2 hours</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-5">Servings</div>
+              <div class="col-5">16</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients for Cake</h3>
+          <dl class="ingredients-list">
+            <dt>2 cups</dt> <dd>All-purpose Flour</dd>
+            <dt>1/4 cup</dt> <dd>Granulated Sugar</dd>
+            <dt>1 tsp</dt> <dd>Baking Soda</dd>
+            <dt>1/2 tsp</dt> <dd>Salt</dd>
+            <dt>1 tbsp</dt> <dd>Ground Ginger</dd>
+            <dt>1 1/2 tsp</dt> <dd>Cinnamon</dd>
+            <dt>1/4 tsp</dt> <dd>Allspice</dd>
+            <dt>1/4 tsp</dt> <dd>Ground Cloves</dd>
+            <dt>1/2 cup</dt> <dd>Unsalted Vegan Butter (melted)</dd>
+            <dt>3/4 cup</dt> <dd>Molasses</dd>
+            <dt>2</dt> <dd>Eggs</dd>
+            <dt>1 cup</dt> <dd>Buttermilk</dd>
+            <dt>2 tsp</dt> <dd>Vanilla Extract</dd>
+          </dl>
+          <h3>Ingredients for Icing</h3>
+          <dl class="ingredients-list">
+            <dt>1/2 cup</dt> <dd>Vegan Butter</dd>
+            <dt>1 1/2 cups</dt> <dd>Powdered Sugar</dd>
+            <dt>2 tsp</dt> <dd>Ground Ginger</dd>
+            <dt>1/2 tsp</dt> <dd>Cinnamon</dd>
+            <dt>Optional</dt> <dd>Sprinkles</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>Preheat oven to 350 degrees and grease a 9x5 bread tin.</li>
+            <li>Start by mixing all dry ingredients in a large bowl (flour, sugar, baking soda, salt, ginger, cinnamon, allspice and cloves).</li>
+            <li>Next, in a separate bowl mix melted butter and molasses until combined. Once combined, add eggs and vanilla extract and beat.</li>
+            <li>Once eggs are incorporated, add buttermilk and stir until mixture is smooth. If you don't have buttermilk you can make it by by mixing 1 cup of almond milk with 1 tbsp apple cider vinegar, let sit in the fridge for 4 minutes.</li>
+            <li>Slowly add wet ingredients to dry ingredients mixing well until combined. (Be careful to not over mix.) Pour batter into pan and bake for 50-55 minutes. You will know when the bread is done when you can stick a toothpick in the middle and it comes out clean.</li>
+            <li>Allow loaf to cool. While cooling prepare icing by beating the vegan butter until smooth. Once smooth add in powdered sugar and spices until incorporated. Decorate and enjoy!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
