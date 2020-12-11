@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <title>Baking with a Brownie - Cookies</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
+        $("#cookies").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="../images/cookies/seaSaltDarkChocoCookies.jpg" alt="cookies" class="recipe-picture" />
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">These cookies are a copycat Levain Bakery recipe that I modified! They are very thick and not super sweet, but still yummy and also they're dairy free and gluten free!</div>
+            </div>
+            <!-- Made by -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="col-9">Made by Maryam</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Total Time</div>
+              <div class="col-4">1 hour and 45 minutes</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Servings</div>
+              <div class="col-4">12-16 cookies</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients</h3>
+          <dl class="ingredients-list">
+            <dt>3 cups and 2 tbsp</dt> <dd>GF All-purpose Flour</dd>
+            <dt>1 tsp</dt> <dd>Baking Powder</dd>
+            <dt>1/4 tsp</dt> <dd>Baking Soda</dd>
+            <dt>1 tsp</dt> <dd>Kosher Salt</dd>
+            <dt>3/4 cup</dt> <dd>Coconut Oil (unmelted)</dd>
+            <dt>3/4 cup</dt> <dd>Light Brown Sugar</dd>
+            <dt>4 tsp</dt> <dd>Dark Brown Sugar</dd>
+            <dt>1/2 cup</dt> <dd>Granulated Sugar</dd>
+            <dt>2</dt> <dd>Cold Eggs (lightly beaten)</dd>
+            <dt>1 tsp</dt> <dd>Vanilla Extract</dd>
+            <dt>2 cups</dt> <dd>Dark Chocolate Chips</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>Preheat oven to 375 degrees, and line a large baking sheet with parchment paper. In a medium bowl, mix flour, baking soda, baking powder, and salt. Set aside.</li>
+            <li>In a standing mixer with paddle attachment, beat coconut oil for about 1 minute. Add in sugars and beat another minute until combined.</li>
+            <li>Lower the speed and mix in eggs and vanilla until combined. Gradually add in flour mixture at low speed until dough forms. Finally, fold in chocolate chips with spatula.</li>
+            <li>Divide the dough into 12-16 even pieces. Shape roughly into a ball but don’t roll.</li>
+            <li>Place on baking sheet and refrigerate for at least 30 minutes before baking (the longer the better).</li>
+            <li>Bake for 15-20 minutes until golden brown! It is better to take these cookies out early as they will be ruined if they are overbaked! Cool for 20 minutes and enjoy!!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
