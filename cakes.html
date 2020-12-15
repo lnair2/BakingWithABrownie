@@ -12,6 +12,7 @@
     <title>Baking with a Brownie - Cakes</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
     <script>
       $(function(){
@@ -19,6 +20,8 @@
         $("footer").load("footer.html", function(){
           $("#cakes").addClass("active");
         });
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
       });
     </script>
   </head>
@@ -31,81 +34,80 @@
         </div>
         <div class="gallery">
           <a href="cakes/CoconutCake.html">
-            <img src="images/cakes/coconutCake-square.png" alt="coconut cake" width="600" height="400">
+            <img class="lozad" src="images/cakes/coconutCake-square.png" alt="coconut cake" width="600" height="400">
             <div class="desc">Coconut <br> Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/BostonCreamPie.html">
-            <img src="images/cakes/bostonCreamPie-square.png" alt="Boston Cream Pie" width="600" height="400">
+            <img class="lozad" src="images/cakes/bostonCreamPie-square.png" alt="Boston Cream Pie" width="600" height="400">
             <div class="desc">Boston Cream <br>Pie</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/BobaCake.html">
-            <img src="images/cakes/bobaCake-square.png" alt="boba cake" width="600" height="400">
+            <img class="lozad" src="images/cakes/bobaCake-square.png" alt="boba cake" width="600" height="400">
             <div class="desc">Milk Tea <br>Boba Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/FlourlessChocolateCake.html">
-            <img src="images/cakes/flourlessChocolateCake-square.png" alt="flourless Chocolate Cake" width="600" height="300">
+            <img class="lozad" src="images/cakes/flourlessChocolateCake-square.png" alt="flourless Chocolate Cake" width="600" height="300">
             <div class="desc">Flourless <br> Chocolate Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/StrawberryCreamCheesecake.html">
-            <img src="images/cakes/strawberryCreamCheesecake2-square.png" alt="flourless Chocolate Cake" width="600" height="300">
+            <img class="lozad" src="images/cakes/strawberryCreamCheesecake2-square.png" alt="flourless Chocolate Cake" width="600" height="300">
             <div class="desc">Strawberry Cream <br> Cheesecake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/ChocolateCupcakes.html">
-            <img src="images/cakes/chocolateCupcakes2-square.png" alt="chocolateCupcakes" width="600" height="300">
+            <img class="lozad" src="images/cakes/chocolateCupcakes2-square.png" alt="chocolateCupcakes" width="600" height="300">
             <div class="desc">Chocolate <br> Cupcakes</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/StrawberryLimeCheesecakeSwirl.html">
-            <img src="images/cakes/strawberryLimeCheesecakeSwirl1-square.png" alt="strawberryLimeCheesecakeSwirl" width="600" height="300">
+            <img class="lozad" src="images/cakes/strawberryLimeCheesecakeSwirl1-square.png" alt="strawberryLimeCheesecakeSwirl" width="600" height="300">
             <div class="desc">Strawberry Lime <br> Cheesecake Swirl</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/ConfettiBirthdayCake.html">
-            <img src="images/cakes/sprinkleBdayCake-square.png" alt="sprinkleBdayCake" width="600" height="300">
+            <img class="lozad" src="images/cakes/sprinkleBdayCake-square.png" alt="sprinkleBdayCake" width="600" height="300">
             <div class="desc">Confetti Birthday <br> Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/PumpkinRollCake.html">
-            <img src="images/cakes/pumpkinRollCake-square.png" alt="pumpkin roll cake" width="600" height="300">
+            <img class="lozad" src="images/cakes/pumpkinRollCake-square.png" alt="pumpkin roll cake" width="600" height="300">
             <div class="desc">Pumpkin Roll <br> Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/GingerbreadLoafCake.html">
-            <img src="images/cakes/gingerbreadLoaf-square.png" alt="gingerbread loaf cake" width="600" height="300">
+            <img class="lozad" src="images/cakes/gingerbreadLoaf-square.png" alt="gingerbread loaf cake" width="600" height="300">
             <div class="desc">Gingerbread Loaf <br> Cake</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="cakes/FrozenMochaTorte.html">
-            <img src="images/cakes/mochaTorte-square.png" alt="mocha torte" width="600" height="300">
+            <img class="lozad" src="images/cakes/mochaTorte-square.png" alt="mocha torte" width="600" height="300">
             <div class="desc">Frozen Mocha <br> Torte</div>
           </a>
         </div>
-
       </section>
     </div>
     <footer class="footer">

@@ -12,6 +12,7 @@
     <title>Baking with a Brownie - Cookies</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
     <script>
       $(function(){
@@ -19,6 +20,8 @@
         $("footer").load("footer.html", function(){
           $("#cookies").addClass("active");
         });
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
       });
     </script>
   </head>
@@ -29,37 +32,37 @@
       <section id="sides">
         <div class="gallery">
           <a href="cookies/LinzerCookies.html">
-            <img src="images/cookies/linzerCookies-square.png" alt="Linzer Cookies" height="200">
+            <img class="lozad" src="images/cookies/linzerCookies-square.png" alt="Linzer Cookies" height="200">
             <div class="desc">Linzer Jam <br> Cookies</div>
           </a>
         </div>
         <div class="gallery">
           <a href="cookies/OrangeChocolateCookies.html">
-            <img src="images/cookies/orangeChocolateCookies-square.png" alt="Orange Chocolate Cookies" height="200">
+            <img class="lozad" src="images/cookies/orangeChocolateCookies-square.png" alt="Orange Chocolate Cookies" height="200">
             <div class="desc">Orange Chocolate <br> Cookies</div>
           </a>
         </div>
         <div class="gallery">
           <a href="cookies/PeanutButterBlossoms.html">
-            <img src="images/cookies/peanutButterBlossoms-square2.png" alt="peanutButterBlossoms" height="200">
+            <img class="lozad" src="images/cookies/peanutButterBlossoms-square2.png" alt="peanutButterBlossoms" height="200">
             <div class="desc">Peanut Butter <br> Blossoms</div>
           </a>
         </div>
         <div class="gallery">
           <a href="cookies/MatchaWhiteChocolateCookies.html">
-            <img src="images/cookies/matchaWhiteChoco-square.png" alt="matcha white choco cookies" height="200">
+            <img class="lozad" src="images/cookies/matchaWhiteChoco-square.png" alt="matcha white choco cookies" height="200">
             <div class="desc">Matcha White <br> Chocolate Cookies</div>
           </a>
         </div>
         <div class="gallery">
           <a href="cookies/GingerSnapCookies.html">
-            <img src="images/cookies/gingersnap-square.png" alt="ginger snap cookies" height="200">
+            <img class="lozad" src="images/cookies/gingersnap-square.png" alt="ginger snap cookies" height="200">
             <div class="desc">Ginger Snap <br> Cookies</div>
           </a>
         </div>
         <div class="gallery">
           <a href="cookies/SeaSaltDarkChocolateCookies.html">
-            <img src="images/cookies/seaSaltDarkChocoCookies-square.png" alt="cookies" height="200">
+            <img class="lozad" src="images/cookies/seaSaltDarkChocoCookies-square.png" alt="cookies" height="200">
             <div class="desc">Sea Salt Dark <br>Chocolate Cookies</div>
           </a>
         </div>
