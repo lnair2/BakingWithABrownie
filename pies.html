@@ -12,6 +12,7 @@
     <title>Baking with a Brownie - Pies</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
     <script>
       $(function(){
@@ -19,6 +20,9 @@
         $("footer").load("footer.html", function(){
           $("#pies").addClass("active");
         });
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
+        console.log(observer);
       });
     </script>
 
@@ -30,14 +34,14 @@
       <section id="sides">
         <div class="gallery">
           <a href="pies/KeyLimePie.html">
-            <img src="images/pies/keylimepie3-square.png" alt="key lime pie" width="600" height="400">
+            <img class="lozad" src="images/pies/keylimepie3-square.png" alt="key lime pie" width="600" height="400">
             <div class="desc">Key Lime <br> Pie</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="pies/LemonMerenguePie.html">
-            <img src="images/pies/lemonMerenguePie-square.png" alt="lemon merengue pie" width="600" height="400">
+            <img class="lozad" src="images/pies/lemonMerenguePie-square.png" alt="lemon merengue pie" width="600" height="400">
             <div class="desc">Lemon Merengue <br> Pie</div>
           </a>
         </div>
