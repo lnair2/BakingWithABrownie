@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <title>Baking with a Brownie - Other Tasty Treats</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
+        $("#otherTreats").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="../images/other/panna-cotta.jpg" alt="panna cotta" class="recipe-picture" width="400"/>
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h3>Info</h3>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">I was really surprised at how easy this Panna Cotta was to make. It was so creamy and delicious, and I will definitely be trying out
+              different toppings and sauces to pair with it!</div>
+            </div>
+            <!-- Made by -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="col-9">Made by Lavi</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Total Time</div>
+              <div class="col-4">5 hours and 30 minutes (including cooling time)</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Servings</div>
+              <div class="col-4">6 ramekins</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients for Panna Cotta</h3>
+          <dl class="ingredients-list">
+            <dt>1 Envelope</dt> <dd>Unflavored Gelatin</dd>
+            <dt>2 tbsp</dt> <dd>Water</dd>
+            <dt>2 cups</dt> <dd>Heavy Whipping Cream</dd>
+            <dt>1 cup</dt> <dd>Half and Half</dd>
+            <dt>1/4 cup</dt> <dd>Granulated Sugar</dd>
+            <dt>2 tsp</dt> <dd>Vanilla Extract</dd>
+          </dl>
+          <h3>Ingredients for Berry Sauce</h3>
+          <dl class="ingredients-list">
+            <dt>A Pint</dt> <dd>Fresh Raspberries</dd>
+            <dt>1 tsp</dt> <dd>Corn Starch</dd>
+            <dt>2 tbsp</dt> <dd>Raspberry Jam</dd>
+            <dt>1 tbsp</dt> <dd>Lemon Juice</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>In a saucepan, pour the water over the gelatin, and stir over low heat. When the gelatin is completely dissolved, remove from heat.</li>
+            <li>In another saucepan, bring the half and half, heavy whipping cream, and sugar to a boil. Then stir in the gelatin and the vanilla extract.</li>
+            <li>Pour the mixture equally in each of your ramekins, and then chill for at least 4 hours (the longer the better).</li>
+            <li>For the sauce, add the lemon juice and raspberries to a sauce pan, and bring to a boil. Add the corn starch and jam to thicken the mixture, stirring continuously.</li>
+            <li>Strain the sauce to remove any raspberry seeds.</li>
+            <li>When the panna cotta is finished cooling, dip the bottom of the ramekins in hot water and run a knife around the edges to loosen them. Invert them onto plates and spoon the sauce over each serving. Enjoy!</li>
+            <p>*Note: I prefer my desserts to be more tart, so feel free to add some sugar to the berry sauce to sweeten it up!</p>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
