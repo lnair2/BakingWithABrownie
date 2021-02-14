@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <title>Baking with a Brownie - Cookies</title>
+  <link rel="shortcut icon" href="../images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $("header").load("../header.html");
+      $("footer").load("../footer.html", function(){
+        $("#cookies").addClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+  </header>
+  <section id="recipe">
+  <div class="container">
+    <!-- info and pic section -->
+    <div class="row">
+        <!-- Picture -->
+        <div class="col-md-6">
+          <img src="../images/cookies/DarkChocolateStrawberryCookies.png" alt="DarkChocolateStrawberryCookies" class="recipe-picture" />
+        </div>
+        <!-- Info -->
+        <div class="col-md-6">
+          <div class="recipe-info">
+            <h2>Dark Chocolate Strawberry Cookies</h2>
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="col-9">These are my favorite cookies to make for Valentine's Day. They perfectly combine the flavors of sweet strawberries and rich dark chocolate making these cookies absolutely addicting!</div>
+            </div>
+            <!-- Made by -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="col-9">Made by Lavi</div>
+            </div>
+            <!-- Time -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Total Time</div>
+              <div class="col-4">1 1/2 hour</div>
+            </div>
+            <!-- Serving -->
+            <div class="row">
+              <div class="col-2 text-center">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="col-6">Servings</div>
+              <div class="col-4">18 cookies</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Ingredients -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-ingredients">
+          <h3>Ingredients</h3>
+          <dl class="ingredients-list">
+            <dt>1 stick</dt> <dd>Butter (unsalted/room temperature)</dd>
+            <dt>1 1/2 cups</dt> <dd>All-purpose flour</dd>
+            <dt>3/4 tsp</dt> <dd>Baking Soda</dd>
+            <dt>A Pinch</dt> <dd>Sea Salt</dd>
+            <dt>1 cup</dt> <dd>Light Brown Sugar</dd>
+            <dt>1</dt> <dd>Egg</dd>
+            <dt>1 tsp</dt> <dd>Vanilla Extract</dd>
+            <dt>1 cup</dt> <dd>Freeze Dried Strawberries</dd>
+            <dt>1 1/8 cup</dt> <dd>Dark Chocolate Chips</dd>
+            <dt>1/8 cup</dt> <dd>Semi-Sweet Chocolate Chips</dd>
+            <dt>1 tsp</dt> <dd>Coconut Oil</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Directions -->
+    <div class="row wow slideInUp">
+      <div class="col-12">
+        <div class="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+            <li>Pre-heat oven to 350° and grease or line baking sheet with parchment paper. Then whisk together the flour, salt, and baking soda.</li>
+            <li>In a separate bowl cream the sugar and the butter. Then add the egg and vanilla, mixing continuously.</li>
+            <li>Once the sugar mixture is well combined, slowly mix in the flour mixture. Continue mixing until the combined dough forms. Then fold in 1 cup of the dark chocolate chips and 1 cup of slightly crushed freeze dried strawberries.</li>
+            <li>Form balls of dough, and set them a few inches apart. Then bake for 10-12 minutes or until they are slightly golden on the edges.</li>
+            <li>While they bake, combine the rest of the chocolate chips and coconut oil in a microwave safe bowl. Heat the mixture in 15 second intervals, mixing in-between, until it forms a smooth consistency.</li>
+            <p>*Note: I added semi-sweet chocolate chips to add a tinge of sweetness to the sauce, but depending on your preference you can do full dark chocolate or full semi-sweet!</p>
+            <li>After the cookies are done baking, transfer them to a wire rack, and let them cool for a few minutes. Then drizzle the chocolate sauce over the top of them. Allow them to cool for an additional 10-15 minutes, then enjoy!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+  </footer>
+  </body>
+</html>
